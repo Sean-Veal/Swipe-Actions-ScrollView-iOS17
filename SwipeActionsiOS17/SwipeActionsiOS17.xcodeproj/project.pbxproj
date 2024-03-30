@@ -11,6 +11,7 @@
 		15C7D3CA2BB5DD90001582DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7D3C92BB5DD90001582DA /* ContentView.swift */; };
 		15C7D3CC2BB5DD91001582DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C7D3CB2BB5DD91001582DA /* Assets.xcassets */; };
 		15C7D3CF2BB5DD91001582DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C7D3CE2BB5DD91001582DA /* Preview Assets.xcassets */; };
+		15C7D3D72BB5DE12001582DA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7D3D62BB5DE12001582DA /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		15C7D3C92BB5DD90001582DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		15C7D3CB2BB5DD91001582DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15C7D3CE2BB5DD91001582DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15C7D3D62BB5DE12001582DA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		15C7D3C62BB5DD90001582DA /* SwipeActionsiOS17 */ = {
 			isa = PBXGroup;
 			children = (
+				15C7D3D52BB5DE03001582DA /* View */,
 				15C7D3C72BB5DD90001582DA /* SwipeActionsiOS17App.swift */,
 				15C7D3C92BB5DD90001582DA /* ContentView.swift */,
 				15C7D3CB2BB5DD91001582DA /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				15C7D3CE2BB5DD91001582DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15C7D3D52BB5DE03001582DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15C7D3D62BB5DE12001582DA /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C7D3CA2BB5DD90001582DA /* ContentView.swift in Sources */,
+				15C7D3D72BB5DE12001582DA /* Home.swift in Sources */,
 				15C7D3C82BB5DD90001582DA /* SwipeActionsiOS17App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
